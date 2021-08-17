@@ -1,0 +1,104 @@
+.App {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.header-title {
+  padding-top: 36px;
+  padding-bottom: 43px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #45852D;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: -0.3px;
+  color: #363636;
+  margin-bottom: 45px;
+}
+.filter .filter__label {
+  margin-right: 15px;
+}
+.filter .filter__text-box {
+  outline: none;
+  min-width: 418px;
+  padding: 15px 0 18px 15px;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.cards .cards__item {
+  width: 379px;
+  height: 381px;
+  background: #F8F8F8;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  position: relative;
+}
+.cards .cards__item .home__pic {
+  width: 100%;
+  height: 228px;
+  position: relative;
+}
+.cards .cards__item .home__pic .home__img {
+  width: 100%;
+  height: 100%;
+}
+.cards .cards__item .home__pic .home__label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 8px 11px 5px 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  background: #006F79;
+}
+.cards .cards__item .home__info {
+  padding: 15px 0 17px 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363636;
+}
+.cards .cards__item .home__info .home__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+.cards .cards__item .home__info .home__address {
+  margin-bottom: 15px;
+}
+.cards .cards__item .home__info .home__price {
+  margin-bottom: 7px;
+}
+.cards .cards__item .home__info .home__price strong {
+  font-weight: bold;
+}
+.cards .cards__item .home__info .home__note {
+  font-size: 14px;
+  line-height: 19px;
+}
+/*# sourceMappingURL=App.css.map */
