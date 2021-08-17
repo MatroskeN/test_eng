@@ -1,5 +1,5 @@
 .App {
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .header-title {
@@ -45,10 +45,15 @@
 .cards .cards__item {
   width: 379px;
   height: 381px;
+  margin-right: 22px;
+  margin-bottom: 38px;
   background: #F8F8F8;
   border: 1px solid #D8D8D8;
   box-sizing: border-box;
   position: relative;
+}
+.cards .cards__item:nth-child(3n+3) {
+  margin-right: unset;
 }
 .cards .cards__item .home__pic {
   width: 100%;
@@ -73,6 +78,9 @@
   text-align: center;
   color: #FFFFFF;
   background: #006F79;
+}
+.cards .cards__item .home__pic .orange {
+  background: #EC6608;
 }
 .cards .cards__item .home__info {
   padding: 15px 0 17px 20px;
