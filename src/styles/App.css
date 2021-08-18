@@ -82,6 +82,12 @@
 .cards .cards__item .home__pic .orange {
   background: #EC6608;
 }
+.cards .cards__item .invisible {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .cards .cards__item .home__info {
   padding: 15px 0 17px 20px;
   font-family: Open Sans;
